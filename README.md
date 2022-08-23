@@ -1,5 +1,5 @@
 ## Programação Front-End - 2022-2
-* **Dia:** Terça-Feira 
+* **Dia:** Terça-Feira! 
 * **Período:** Noite
 
 ## Prof. Hebert Bratefixe Alquimim

@@ -1,11 +1,13 @@
 let msg;//declaração da variável msg
-const saida=document.querySelector(".saida");//class="saida"
-const h1=document.querySelector('h1');//nome de tag <h1>
+const saida=document.querySelector(".saida");//seletor de class="saida"
+const h1=document.querySelector('h1');//seletor de nome de tag <h1>
+
 
 msg="Hoje a aula mudou!";
 
 saida.innerHTML=`${msg}`;
 saida.innerHTML+=`<br>Mesmo!!`;
-saida.innerHTML+=`<br>${msg}`;
+saida.innerHTML+=`<h2>${msg}</h2>`;
 
-h1.innerHTML="Javascript";
+
+h1.innerHTML+=" - Javascript";

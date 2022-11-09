@@ -22,9 +22,35 @@ Criar um looping para mostra os valores
 9 10 11 12
 
 */
-i=0;//valor inicial 
-while (i < 5) {//condição
+i=9;//valor inicial 
+while (i < 13) {//condição  (i<=12)
     saida.innerHTML+=i + " ";
     i++;//contador
+}
+saida.innerHTML+="<hr>";
+/*
+Desafio2:Atenção....cuidado, para tentar o desafio 2
+Criar um looping para mostra os valores
+
+4 3 2 1 0
+
+*/
+i=4;//valor inicial 
+while (i >= 0) {//condição 
+    saida.innerHTML+=i + " ";
+    i--;//contador
+}
+saida.innerHTML+="<hr>";
+/*
+Desafio3:
+Criar um looping para mostra os valores
+
+0 2 4 6 8 10
+
+*/
+i=0;//valor inicial 
+while (i < 11) {//condição  (i<=10)
+    saida.innerHTML+=i + " ";
+    i+=2;//contador
 }
 saida.innerHTML+="<hr>";

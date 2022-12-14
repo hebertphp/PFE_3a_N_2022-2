@@ -17,4 +17,4 @@ function media(nota1,nota2,nota3){
 boas_vindas("Astrogildo");//executar/chamar a função
 boas_vindas("Belarmina");
 saida.innerHTML+=media(10,9,9)+"<br>";
-saida.innerHTML+=media(8,6,6);
+saida.innerHTML+=media(8,6,6)+"<br>";

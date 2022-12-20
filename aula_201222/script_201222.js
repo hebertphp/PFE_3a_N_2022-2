@@ -1,6 +1,8 @@
 const saida=document.querySelector('.saida');
 
-saida.innerHTML='Funciona?';
+const nomes=["Lucas", "Daniela","Aderbal","Timóteo"];
+
+saida.innerHTML=nomes;
 
 
 /*

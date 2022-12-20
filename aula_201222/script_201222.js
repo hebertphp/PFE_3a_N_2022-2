@@ -17,5 +17,10 @@ saida.innerHTML+=aluno.semestre+"<br>";
 console.log(aluno);//comando de saída e direciona para o console
 
 /*
-https://www.w3schools.com/js/js_objects.asp
+Desafio:
+Criar um objeto presente_natal
+com 3 propriedades, sendo uma delas o valor do presente(R$)
+Mostrar os dados na página
 */
+
+/* https://www.w3schools.com/js/js_objects.asp */

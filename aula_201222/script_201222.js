@@ -10,7 +10,11 @@ const aluno={
 };
 
 // saida.innerHTML=nomes[2];//Aderbal
-saida.innerHTML=aluno;
+saida.innerHTML=aluno.nome+"<br>";
+saida.innerHTML+=aluno.ra+"<br>";
+saida.innerHTML+=aluno.curso+"<br>";
+saida.innerHTML+=aluno.semestre+"<br>";
+console.log(aluno);//comando de saída e direciona para o console
 
 /*
 https://www.w3schools.com/js/js_objects.asp

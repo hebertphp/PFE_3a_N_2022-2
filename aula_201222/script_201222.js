@@ -27,9 +27,11 @@ const presente={
 saida.innerHTML+=presente.nome+"<br>";
 saida.innerHTML+=presente.jogo+"<br>";
 saida.innerHTML+=presente.valor+"<br>";
-saida.innerHTML+=presente.tipo+"<hr>";
+saida.innerHTML+=presente.tipo+"<br>";
 saida.innerHTML+=presente["tipo"]+"<hr>";
-
+for (let i in presente){
+    saida.innerHTML+=i;
+}    
 /*
 Desafio:
 Criar um objeto presente_natal

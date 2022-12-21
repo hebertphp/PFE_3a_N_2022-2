@@ -29,8 +29,8 @@ saida.innerHTML+=presente.jogo+"<br>";
 saida.innerHTML+=presente.valor+"<br>";
 saida.innerHTML+=presente.tipo+"<br>";
 saida.innerHTML+=presente["tipo"]+"<hr>";
-for (let i in presente){
-    saida.innerHTML+=i;
+for (let prop in presente){
+    saida.innerHTML+=`${prop}: ${presente[prop]}<br>`;
 }    
 /*
 Desafio:
